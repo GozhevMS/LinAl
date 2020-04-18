@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     Vector3D A(1, 2, 3);
     Vector3D B;
     cin >> B;
@@ -32,6 +33,6 @@ int main()
     cout << "det(D) = " << D.det() << endl;
 
     cout << "D * B = " << D * B << endl;
-
+    system("pause");
     return 0;
 };

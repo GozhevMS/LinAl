@@ -1,5 +1,4 @@
 #include "Matrix3D.h"
-
 Matrix3D::Matrix3D(Vector3D x, Vector3D y, Vector3D z) : x(x), y(y), z(z)
 {
 }
